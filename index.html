@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Flyer</title>
+</head>
+<body>
+  <div class="container">
+    <span id="miTexto"></span>
+  </div>
+  
+  <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+  <script>
+    new TypeIt("#miTexto", {
+      speed: 50,
+      waitUntilVisible: true,
+    })
+    .type('Hola, ')
+    .pause(800)
+    .type('me llamo Damián Zabcic ')
+    .pause(800)
+    .type('y diseñé este "Flyer ilusorio" solo para llamar la atención, ')
+    .pause(800)
+    .type('espero que no se hayan enojado e ilusionado con la fiesta 😅 ')
+    .pause(800)
+    .type('yo mismo me enojaría si me enviaran un mail de este tipo. ')
+    .pause(800)
+    .type('<br><br>')
+    .type('Soy Diseñador Digital y Desarrollador Frontend de la ciudad de Rosario. ')
+    .pause(800)
+    .type('<br><br>')
+    .type('Actualmente me encuentro buscando trabajo, si por el momento no están necesitando a nadie igual me gustaría hacer una pasantía en su empresa, de un día, una semana, un mes para aprender y ayudarlos en algo ')
+    .pause(800)
+    .type('(como servir mate, por ejemplo). ')
+    .pause(800)
+    .type('<br><br>')
+    .type('Un saludo a todo el equipo!! ')
+    .pause(800)
+    .type('<br><br>')
+    .type('Mi portfolio: <a href="https://linktr.ee/damianzabcic">linktr.ee/damianzabcic</a> ')
+    .go();
+  </script>
+</body>
+</html>
+
+<span class="menos-separacion"></span>

@@ -1,0 +1,28 @@
+body {
+    background-color: #151515;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8rem;
+    margin-top: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 40px;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    background-color: black;
+    color: skyblue;
+    /* box-shadow: 4px 4px skyblue; */
+}
+
+.menos-separacion {
+    line-height: 0.9rem;
+}
+
+a {
+    color: tomato;
+    text-decoration: none;
+}
+
